@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # GeminiChatFrontEnd
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.8.
@@ -25,3 +26,7 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+=======
+# Gemini-Chat
+AI Powered chat application integrated with google GEMINI
+>>>>>>> 143604759bfe8d512c4324eefc97ab2bf0136083
