@@ -1,0 +1,32 @@
+<div class="App">
+  <header class="bg-primary text-white text-center py-4">
+    <h1>Gemini ChatBot</h1>
+  </header>
+  <!-- question -->
+  <div class="container my-4">
+    <div>
+      <div class="form-group">
+        <label for="question">Ask a question</label>
+        <input type="text" id="question" [(ngModel)]="question" class="form-control" placeholder="Enter your question">
+      </div>
+      <button class="btn btn-primary mt-2" (click)="handleSubmit()">Submit</button>
+    </div>
+  </div>
+  <!-- Response -->
+  <div class="container my-4" *ngIf="response">
+    <h3>Response</h3>
+    <div class="card mb-3">
+      <div class="card-body">
+        @if (loading) {
+          <p class="card-text loading">Loading...</p>
+        }
+        @else {
+          <p class="card-text">{{result}}</p>
+        }
+        
+        
+        
+      </div>
+    </div>
+  </div>
+</div>

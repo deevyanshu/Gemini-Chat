@@ -1,0 +1,10 @@
+.loading{
+    color: rgb(221, 55, 88);
+    opacity: 0;
+    animation: fadeInOut 1s infinite alternate ease-in-out;
+  }
+
+  @keyframes fadeInOut {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
